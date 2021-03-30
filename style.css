@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    display: block;
+}
+.container{
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    position: relative;
+}
+.card{
+    font-family: 'Roboto';
+    display: inline-block;
+    max-width: 300px;
+    border: 1px solid #e2e2e2;
+    margin-right: 20px;
+}
+.card img{
+    width: 100%;
+    position: relative;
+}
+.description{
+    padding: 30px 25px;
+}
+.description__title, .rub{
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    
+}
+.description__txt{
+    color: #666;
+    font-size: 15px;
+}
+.price{
+    font-size: 35px;
+    color: #333;
+    font-weight: bold;
+}
+.price .rub{
+    color: #666;
+    font-weight: normal;
+}
+.buy{
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+.buy__btn{
+    display: inline;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #4ed17d;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buy__btn:hover{
+    background: #318851;
+}
